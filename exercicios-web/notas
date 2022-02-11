@@ -49,3 +49,14 @@ herença, (inherit)
 box model(float)
 margin-collapse
 display: inline(padding), block, inline-block
+
+
+
+
+document. 
+    getElementById
+    getElementsByClassName
+    getElementByTagName
+
+    querySelector 
+    querySelectorAll

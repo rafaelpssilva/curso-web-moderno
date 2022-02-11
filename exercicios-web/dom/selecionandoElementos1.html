@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Selecionar Elementos #01</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="conteudo exercicio">
+    <div id="primeiro">#primeiro</div>
+    <div id="segundo">Segundo</div>
+    <div class="terceiro ultimo">.terceiro .ultimo</div>
+    <script>              
+        // document.getElementById('primeiro').classList.add('destaque')
+
+        // const divs = document.getElementsByTagName('div')
+
+        // Array.from(divs).forEach(e => e.classList.remove('destaque'))
+
+        // const divsArray = [...divs]
+        // divsArray.forEach(e => e.classList.add('destaque'))
+
+        // const ultimosElementos = document.getElementsByClassName('ultimo')
+        // Array.from(ultimosElementos).forEach(e => e.classList.remove('destaque'))
+        // for ( let e of ultimosElementos) {
+        //     e.classList.add('destaque')
+        // }
+
+        // divsArray.forEach(e => e.classList.remove('destaque'))
+
+        // const divs = document.getElementsByTagName('div')
+        // divs.forEach(e => e.classlist.add('destaque'))
+
+        // const divs = document.getElementsByTagName('div')
+
+        // Array.from(divs).forEach(e => e.classList.add('destaque'))
+
+        const div3 = document.getElementsByClassName('terceiro')
+        Array.from(div3).forEach(e => e.classList.remove('destaque'))
+
+        // const div2 = document.getElementsByClassName('segundo') 
+        // Array.from(div2).forEach(e => e.classList.remove('destaque'))
+
+
+        const div2 = document.getElementById('segundo')
+        div2.classList.remove('destaque')
+
+        const div1 = document.getElementById('primeiro')
+        div1.classList.remove('destaque')
+
+        div1.classList.add('destaque')
+        div2.classList.add('destaque')
+        Array.from(div3).forEach(e => e.classList.add('destaque'))
+
+        const divs = document.getElementsByTagName('div')
+        for (let e of divs) {
+            e.classList.remove('destaque')
+        }
+
+    </script>
+</body>
+</html>
