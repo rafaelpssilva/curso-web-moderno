@@ -1,0 +1,28 @@
+13/12 Ver sobre callback novamente
+
+IIFE
+
+ex 06 07 08 022 027 029 
+
+
+ex 06x 
+ex 07x
+ex 08 
+ex022x
+ex027x
+
+
+
+geters e setters 
+
+
+// Object.preventExtensions (Não pode adicionar atributos, pode modificar atributos existentes, pode deletar atributos)
+// Object.seal()
+// Object.freeze()
+
+
+JSON javascript 
+validador de JSON 
+
+
+class javascript

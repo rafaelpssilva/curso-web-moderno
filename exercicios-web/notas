@@ -1,0 +1,51 @@
+comandos vscode:
+ctrl + k, ctrl + c = fazer um comentario
+div#serquilha = <div id="serquilha"></div>
+
+servidor:
+iniciar servidor
+    http-server .
+
+
+revisão:
+anatomia da tag html
+
+tags: 
+    <blockquote cite="">
+        https://www.w3schools.com/TAGS/tag_blockquote.asp
+    <abbr title="">
+        https://www.w3schools.com/TAGS/tag_abbr.asp
+    <dfn>
+        https://www.w3schools.com/tags/tag_dfn.asp
+    <address> 
+        https://www.w3schools.com/tags/tag_address.asp
+    <del> <ins>
+        https://www.w3schools.com/tags/tag_del.asp
+    <s> 
+        https://www.w3schools.com/TAGs/tag_s.asp
+
+
+navegação com link: 
+    navegação de pastas:
+        index.html
+        /index.html
+        ../index.html
+
+    navegação entre a pagina:
+        com <a href="#inicio">ir para o início</a>
+
+    mandar email: 
+        <a href="mailto:email@empresa.com.br">Entre em contato</a>
+
+        
+
+CSS: 
+
+inline interno externo
+seletores 
+especificidade
+herença, (inherit)
+
+box model(float)
+margin-collapse
+display: inline(padding), block, inline-block
