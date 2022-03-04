@@ -9,4 +9,4 @@ function falarDepoisDe(segundos, frase) {
 falarDepoisDe(10, 'Que legal')
     .then(frase => frase.concat('!!!'))
     .then(outraFrase => console.log(outraFrase))
-    .catch(err => console.log(e))
+    .catch(err => console.log(err))
