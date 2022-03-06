@@ -9,7 +9,7 @@ import Multi from './componentes/multiplos'
 
 ReactDOM.render(
     <div>
-        <Multi.BoaTarde nome="Rafa" />
+        <Multi.BoaTarde nome="Rafael" />
         <Multi.BoaNoite nome="Rafael" /> 
     </div>
 , document.getElementById('root'))
