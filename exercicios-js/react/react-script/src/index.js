@@ -1,9 +1,15 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 
-import Primeiro from './componentes/primeiro'
-import BomDia from './componentes/bom-dia'
+// import Primeiro from './componentes/primeiro'
+// import BomDia from './componentes/bom-dia'
 
-const elemento = <h1>Reacthchfhfbfbbxbs</h1>
+import Multi from './componentes/multiplos'
 
-ReactDom.render(<BomDia nome="Rafael" idade={10} />, document.getElementById('root'))
+
+ReactDOM.render(
+    <div>
+        <Multi.BoaTarde nome="Rafa" />
+        <Multi.BoaNoite nome="Rafael" /> 
+    </div>
+, document.getElementById('root'))
